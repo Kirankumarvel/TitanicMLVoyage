@@ -24,7 +24,7 @@
 TitanicMLVoyage/
 │
 ├── data/                  # (Optional) Data files or scripts to load dataset
-├── notebook.py        # Main Jupyter notebook with all tasks
+├── notebook.py            # Main file with all tasks
 ├── README.md              # Project documentation
 ├── requirements.txt       # Dependencies
 └── assets/                # Saved plots or images (optional)
@@ -58,11 +58,6 @@ cd TitanicMLVoyage
 pip install -r requirements.txt
 ```
 
-### 3. Launch Jupyter Notebook
-```bash
-jupyter notebook
-```
-
 ---
 
 ## 📌 Key Highlights
@@ -79,11 +74,17 @@ jupyter notebook
 
 ## 📷 Visuals
 
-Confusion Matrix Example:
+Titanic Confusion Matrix:
+![Titanic Confusion Matrix](https://github.com/user-attachments/assets/2f1f839d-fa21-4f67-ae2e-56150d012131)
 
-<p align="center">
-  <img src="assets/confusion_matrix_rf.png" width="400">
-</p>
+Most Important Features for Predicting Survival on the Titanic:
+![Most Important Features](https://github.com/user-attachments/assets/ed278880-791f-4ccb-98e4-19b649ac5173)
+
+Titanic Classification Confusion Matrix:
+![Titanic Classification Confusion Matrix](https://github.com/user-attachments/assets/1c454596-a280-43f0-8193-aaa26e0607e6)
+
+Feature Coefficient Magnitudes for Logistic Regression Model:
+![Feature Coefficient Magnitudes](https://github.com/user-attachments/assets/1f7721d8-1d26-4e60-897e-53ad57322f41)
 
 ---
 
